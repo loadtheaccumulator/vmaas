@@ -234,9 +234,9 @@ hatch-vcs==0.5.0 \
     #   referencing
     #   urllib3
     #   watchtower
-hatchling==1.28.0 \
-    --hash=sha256:4d50b02aece6892b8cd0b3ce6c82cb218594d3ec5836dbde75bf41a21ab004c8 \
-    --hash=sha256:dc48722b68b3f4bbfa3ff618ca07cdea6750e7d03481289ffa8be1521d18a961
+hatchling==1.29.0 \
+    --hash=sha256:50af9343281f34785fab12da82e445ed987a6efb34fd8c2fc0f6e6630dbcc1b0 \
+    --hash=sha256:793c31816d952cee405b83488ce001c719f325d9cda69f1fc4cd750527640ea6
     # via
     #   attrs
     #   colorama
@@ -252,43 +252,44 @@ hatchling==1.28.0 \
     #   urllib3
     #   uvicorn
     #   watchtower
-maturin==1.12.4 \
-    --hash=sha256:06f6438be7e723aaf4b412fb34839854b540a1350f7614fadf5bd1db2b98d5f7 \
-    --hash=sha256:4d68664e5b81f282144a3b717a7e8593ec94ac87d7ae563a4c464e93d6cde877 \
-    --hash=sha256:5bb07c349dd066277a61e017a6d6e0860cd54b7b33f8ead10b9e5a4ffb740a0a \
-    --hash=sha256:5cc56481b0f360571587c35a1d960ce6d0a0258d49aebb6af98fff9db837c337 \
-    --hash=sha256:88e09e6c386b08974fab0c7e4c07d7c7c50a0ba63095d31e930d80568488e1be \
-    --hash=sha256:89749cfc0e6baf5517fa370729a98955552e42fefc406b95732d5c8e85bc90c0 \
-    --hash=sha256:8fd7eb0c9bb017e98d81aa86a1d440b912fe4f7f219571035dd6ab330c82071c \
-    --hash=sha256:939c4c57efa8ea982a991ee3ccb3992364622e9cbd1ede922b5cfb0f652bf517 \
-    --hash=sha256:ab32c5ff7579a549421cae03e6297d3b03d7b81fa2934e3bdf24a102d99eb378 \
-    --hash=sha256:b8c05d24209af50ed9ae9e5de473c84866b9676c637fcfad123ee57f4a9ed098 \
-    --hash=sha256:c21baaed066b5bec893db2d261bfe3b9da054d99c018326f0bdcf1dc4c3a1eb9 \
-    --hash=sha256:cf8a0eddef9ab8773bc823c77aed3de9a5c85fb760c86448048a79ef89794c81 \
-    --hash=sha256:d72f626616292cb3e283941f47835ffc608207ebd8f95f4c50523a6631ffcb2e \
-    --hash=sha256:eba1bd1c1513d00fec75228da98622c68a9f50f9693aaa6fb7dacb244e7bbf26
+maturin==1.13.2 \
+    --hash=sha256:03e8325993eca886804fce89c1637fae5111941cbb99f78d87dd7c63641fd582 \
+    --hash=sha256:0de9b26bef8f0719bd2747b101960c96a5a8520269717f851d26067cccb057d9 \
+    --hash=sha256:166639db5dc1103f8d1ccf08767379a5655e9561a37c0dec14d67fe450c29725 \
+    --hash=sha256:17fa44f1ea0d9794b322a5cd91a3aa9a574bf55dfc15789a01e37bfce7903911 \
+    --hash=sha256:2ccd12f230b5c9fcaa19491b0d9dc954453e079ae16cb8b08148988f14728000 \
+    --hash=sha256:34974eeb3b05145ce95993decb395d8284aff3b3ddafe8526178908a6f42376a \
+    --hash=sha256:386806ae32642b9a94c35e6a8d177965567d72c052eea351b51e5a3b757ccd0a \
+    --hash=sha256:40c1a8cbd99cd46a500d710885237be4d32b2306a3df74881035f4f61a793a63 \
+    --hash=sha256:535899d204bdb479e164f9c6fc4b263e400c0390ba825736a08215b2cf4599d9 \
+    --hash=sha256:6ae19eb0fecf35907747b909da2401d122ca4d146f45453f0e629a7dd5ea9ad1 \
+    --hash=sha256:6b6e84c9e03cb86a7e168ac992f54e29cba7ed1d9e7398b75468cc4730e95eaa \
+    --hash=sha256:775aa8e7f77430f3072c42a40f516c5d395861a6701531c6a9fca8ec1c3648c4 \
+    --hash=sha256:8fa0a118737149af3503c35cf395ef83b1143afa2dfc197b519292d46fec3e90 \
+    --hash=sha256:f448e2eccc15fe1729038bc5fb5252cdbc0f1bbfc488c40ec3a2167e9b734692
     # via
     #   cryptography
     #   rpds-py
-packaging==26.0 \
-    --hash=sha256:00243ae351a257117b6a241061796684b084ed1c516a08c48a3f7e147a9d80b4 \
-    --hash=sha256:b36f1fef9334a5588b4166f8bcd26a14e521f2b55e6b9de3aaa80d3ff7a37529
+packaging==26.2 \
+    --hash=sha256:5fc45236b9446107ff2415ce77c807cee2862cb6fac22b8a73826d0693b0980e \
+    --hash=sha256:ff452ff5a3e828ce110190feff1178bb1f2ea2281fa2075aadb987c2fb221661
     # via
     #   hatchling
     #   setuptools-scm
+    #   vcs-versioning
     #   wheel
     #   zstandard
-pathspec==1.0.4 \
-    --hash=sha256:0210e2ae8a21a9137c0d470578cb0e595af87edaa6ebf12ff176f14a02e0e645 \
-    --hash=sha256:fb6ae2fd4e7c921a165808a552060e722767cfa526f99ca5156ed2ce45a5c723
+pathspec==1.1.1 \
+    --hash=sha256:17db5ecd524104a120e173814c90367a96a98d07c45b2e10c2f3919fff91bf5a \
+    --hash=sha256:a00ce642f577bf7f473932318056212bc4f8bfdf53128c78bbd5af0b9b20b189
     # via hatchling
 pluggy==1.6.0 \
     --hash=sha256:7dcc130b76258d33b90f61b658791dede3486c3e6bfb003ee5c9bfb396dd22f3 \
     --hash=sha256:e920276dd6813095e9377c0bc5566d94c932c33b27a3e3945d8389c374dd4746
     # via hatchling
-poetry-core==2.3.1 \
-    --hash=sha256:96f791d5d7d4e040f3983d76779425cf9532690e2756a24fd5ca0f86af19ef82 \
-    --hash=sha256:db1cf63b782570deb38bfba61e2304a553eef0740dc17959a50cc0f5115ee634
+poetry-core==2.4.0 \
+    --hash=sha256:4305848477da00272bebd3f615bbec87f64bd117cdb858ab660b626a06a9d96c \
+    --hash=sha256:4e8c7496cf797998ffc493f2e23eba4b038c894c08eadacdcdf688945de6b43a
     # via
     #   connexion
     #   swagger-ui-bundle
@@ -300,10 +301,20 @@ semantic-version==2.10.0 \
     --hash=sha256:bdabb6d336998cbb378d4b9db3a4b56a1e3235701dc05ea2690d9a997ed5041c \
     --hash=sha256:de78a3b8e0feda74cabc54aab2da702113e33ac9d9eb9d2389bcf1f58b7d9177
     # via setuptools-rust
-setuptools-rust==1.12.0 \
-    --hash=sha256:7e7db90547f224a835b45f5ad90c983340828a345554a9a660bdb2de8605dcdd \
-    --hash=sha256:d94a93f0c97751c17014565f07bdc324bee45d396cd1bba83d8e7af92b945f0c
+setuptools-rust==1.12.1 \
+    --hash=sha256:85ae70989d96c9cfeb5ef79cf3bac2d5200bc5564f720a06edceedbdf6664640 \
+    --hash=sha256:b7ebd6a182e7aefa97a072e880530c9b0ec8fcca8617e0bb8ff299c1a064f693
     # via maturin
+setuptools-scm==10.0.5 \
+    --hash=sha256:bbba8fe754516cdefd017f4456721775e6ef9662bd7887fb52ae26813d4838c3 \
+    --hash=sha256:f611037d8aae618221503b8fa89319f073438252ae3420e01c9ceec249131a0a
+    # via
+    #   anyio
+    #   app-common-python
+    #   apscheduler
+    #   hatch-vcs
+    #   pluggy
+    #   setuptools-rust
 setuptools-scm==7.1.0 \
     --hash=sha256:6c508345a771aad7d56ebff0e70628bf2b0ec7573762be9960214730de278f27 \
     --hash=sha256:73988b6d848709e2af142aa48c986ea29592bbcfca5375678064708205253d8e
@@ -312,24 +323,23 @@ setuptools-scm==9.2.2 \
     --hash=sha256:1c674ab4665686a0887d7e24c03ab25f24201c213e82ea689d2f3e169ef7ef57 \
     --hash=sha256:30e8f84d2ab1ba7cb0e653429b179395d0c33775d54807fc5f1dd6671801aef7
     # via
-    #   anyio
-    #   app-common-python
-    #   apscheduler
     #   hatch-vcs
-    #   pluggy
-    #   setuptools-rust
     #   urllib3
-trove-classifiers==2026.1.14.14 \
-    --hash=sha256:00492545a1402b09d4858605ba190ea33243d361e2b01c9c296ce06b5c3325f3 \
-    --hash=sha256:1f9553927f18d0513d8e5ff80ab8980b8202ce37ecae0e3274ed2ef11880e74d
+trove-classifiers==2026.5.7.17 \
+    --hash=sha256:5ec0800de5e2ddbd7c663cb4c0c15328f132dc168813897c18866c5c7b93db33 \
+    --hash=sha256:a04a48f8f0a787cb996514d3969ac7608aa3c60cb15d073c1e02801e60533e80
     # via hatchling
 typing-extensions==4.15.0 ; python_version == "3.12" \
     --hash=sha256:0cea48d173cc12fa28ecabc3b837ea3cf6f38c6d1136f85cbaaf598984861466 \
     --hash=sha256:f0fa19c6845758ab08074a0cfa8b7aecb71c999ca73d62883bc25cc018c4e548
     # via setuptools-scm
-wheel==0.46.3 \
-    --hash=sha256:4b399d56c9d9338230118d705d9737a2a468ccca63d5e813e2a4fc7815d8bc4d \
-    --hash=sha256:e3e79874b07d776c40bd6033f8ddf76a7dad46a7b8aa1b2787a83083519a1803
+vcs-versioning==1.1.1 \
+    --hash=sha256:b541e2ba79fc6aaa3850f8a7f88af43d97c1c80649c01142ee4146eddbc599e4 \
+    --hash=sha256:fabd75a3cab7dd8ac02fe24a3a9ba936bf258667b5a62ed468c9a1da0f5775bc
+    # via setuptools-scm
+wheel==0.47.0 \
+    --hash=sha256:212281cab4dff978f6cedd499cd893e1f620791ca6ff7107cf270781e587eced \
+    --hash=sha256:cc72bd1009ba0cf63922e28f94d9d83b920aa2bb28f798a31d0691b02fa3c9b3
     # via
     #   python-dateutil
     #   tzdata
@@ -339,9 +349,9 @@ setuptools==81.0.0 \
     --hash=sha256:487b53915f52501f0a79ccfd0c02c165ffe06631443a886740b91af4b7a5845a \
     --hash=sha256:fdd925d5c5d9f62e4b74b30d6dd7828ce236fd6ed998a08d81de62ce5a6310d6
     # via charset-normalizer
-setuptools==82.0.0 \
-    --hash=sha256:22e0a2d69474c6ae4feb01951cb69d515ed23728cf96d05513d36e42b62b37cb \
-    --hash=sha256:70b18734b607bd1da571d097d236cfcfacaf01de45717d59e6e04b96877532e0
+setuptools==82.0.1 \
+    --hash=sha256:7d872682c5d01cfde07da7bccc7b65469d3dca203318515ada1de5eda35efbf9 \
+    --hash=sha256:a59e362652f08dcd477c78bb6e7bd9d80a7995bc73ce773050228a348ce2e5bb
     # via
     #   anyio
     #   app-common-python
@@ -363,4 +373,5 @@ setuptools==82.0.0 \
     #   trove-classifiers
     #   tzdata
     #   tzlocal
+    #   vcs-versioning
     #   zstandard
